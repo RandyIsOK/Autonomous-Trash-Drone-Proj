@@ -8,3 +8,18 @@ A little about what it will do
 - Custom trained trash computer vision but used photos from existing models.
 - Connects to phone wirelessly hopefully approx. 50 meters
 - More coming as we continue to update the drone!
+
+Why we made it?
+- We thought it would be a simple first project together...
+- Turns out it was way more complicated than we thought but we put in the hours and got to the point we're at now!
+- It's also just very cool to be able to think of something and then know how to make it.
+
+# Features
+- Custom SLAM (lidar-based, built from scratch) for GPS-free localization and mapping
+- Autonomous coverage planning — systematically explores and covers an area like a Roomba
+- Loop closure + drift correction for reliable long-flight accuracy
+- Computer vision: detects trash, trash cans, and water hazards via a custom-trained model
+- Two-jointed robotic arm + gripper for autonomous pickup and bin delivery
+- Fully autonomous flight control (arm, takeoff, navigation, landing) with battery-based auto-return
+- Phone-based live dashboard: camera feed, telemetry, manual override, emergency RTL — no app needed
+- Runs entirely on a Raspberry Pi 5, no internet or cloud required
